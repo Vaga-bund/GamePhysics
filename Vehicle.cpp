@@ -5,6 +5,7 @@ Vehicle::Vehicle(float x, float y)
   location = new Vector2D(x, y);
   velocity = new Vector2D(0.0f, 0.0f);
   acceleration = new Vector2D(0.0f, 0.0f);
+  //초기화
   force = new Vector2D(0.0f, 0.0f);
   
   maxSpeed = 4.0f;
