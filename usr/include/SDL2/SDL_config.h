@@ -34,7 +34,7 @@
 
 /* Make sure that this isn't included by Visual C++ */
 #ifdef _MSC_VER
-#error You should run hg revert SDL_config.h 
+//#error You should run hg revert SDL_config.h 
 #endif
 
 /* C language features */
@@ -52,7 +52,7 @@
 /* #undef HAVE_GCC_SYNC_LOCK_TEST_AND_SET */
 
 /* Comment this if you want to build without any C library requirements */
-#define HAVE_LIBC 1
+//#define HAVE_LIBC 1
 #if HAVE_LIBC
 
 /* Useful headers */

@@ -1,5 +1,5 @@
-#define WIDTH (600)
-#define HEIGHT (400)
+#define WIDTH 600
+#define HEIGHT 400
 
 #include "Game.h"
 #include "InputHandler.h"
@@ -12,7 +12,7 @@ bool Game::setup()
 {
   bool result;
 
-  result = init("Nature of Code", 0, 0, WIDTH, HEIGHT, false);
+  result = init("Nature of Code", 100, 100, WIDTH, HEIGHT, false);
 
   _walker = new Walker(WIDTH/2,HEIGHT/2);
 
